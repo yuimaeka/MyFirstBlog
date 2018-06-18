@@ -10,8 +10,9 @@ np.random.seed(19680801)
 
 fig, ax = plt.subplots()
 
-resolution = 50  # the number of vertices
-N = 3
+resolution = 60  # the number of vertices
+N = 4
+#変更点
 x = np.random.rand(N)
 y = np.random.rand(N)
 radii = 0.1*np.random.rand(N)
